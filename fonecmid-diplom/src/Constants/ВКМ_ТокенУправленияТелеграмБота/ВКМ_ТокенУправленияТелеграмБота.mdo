@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fb6ca4f-ce7b-4aae-bb20-5c483c2888a8">
+  <producedTypes>
+    <managerType typeId="d4e5738e-8b89-4000-af38-6b8f15804983" valueTypeId="3cdcc22f-3284-45e2-a1e5-c57a6f75ed79"/>
+    <valueManagerType typeId="785ad5a5-3d42-41b5-9386-26c411102cec" valueTypeId="70b74677-ee26-4f58-b60b-6f259fbffad2"/>
+    <valueKeyType typeId="063d196e-5892-4c35-8db5-2a2059272040" valueTypeId="749960a3-05f1-4ee2-b95f-95e4583faa64"/>
+  </producedTypes>
+  <name>ВКМ_ТокенУправленияТелеграмБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен управления телеграм бота</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
