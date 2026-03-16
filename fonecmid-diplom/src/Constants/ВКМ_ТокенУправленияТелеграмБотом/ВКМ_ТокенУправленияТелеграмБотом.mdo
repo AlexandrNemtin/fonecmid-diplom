@@ -5,10 +5,10 @@
     <valueManagerType typeId="785ad5a5-3d42-41b5-9386-26c411102cec" valueTypeId="70b74677-ee26-4f58-b60b-6f259fbffad2"/>
     <valueKeyType typeId="063d196e-5892-4c35-8db5-2a2059272040" valueTypeId="749960a3-05f1-4ee2-b95f-95e4583faa64"/>
   </producedTypes>
-  <name>ВКМ_ТокенУправленияТелеграмБота</name>
+  <name>ВКМ_ТокенУправленияТелеграмБотом</name>
   <synonym>
     <key>ru</key>
-    <value>Токен управления телеграм бота</value>
+    <value>Токен управления телеграм ботом</value>
   </synonym>
   <type>
     <types>String</types>
