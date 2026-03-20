@@ -10,11 +10,13 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
-  <content>Role.ВКМ_МенеджерОбслуживанияКлиентов</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>ScheduledJob.ВКМ_УведомленияТГБот</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботаСпециалиста</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_МассовоеСозданиеРеализаций</content>
 </mdclass:Subsystem>
