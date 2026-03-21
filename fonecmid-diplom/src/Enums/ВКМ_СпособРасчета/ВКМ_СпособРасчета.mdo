@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a7a80a8-a065-4c55-af1c-4324525edb8e">
+  <producedTypes>
+    <refType typeId="62039b13-6c3c-4755-aacb-0c63be00026d" valueTypeId="03d2c902-6169-4efe-b82e-5f14b62d840f"/>
+    <listType typeId="abaa820b-718a-4f6c-9229-3977e582c8e8" valueTypeId="99e935d5-6129-422e-828e-be025b664c79"/>
+    <managerType typeId="2ae4bdfe-d754-4ed6-b598-f1f6cc82ee47" valueTypeId="b9cf275a-e76a-4841-9c3c-27ed8c2ffb47"/>
+  </producedTypes>
+  <name>ВКМ_СпособРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6bd2f614-79da-4026-b17d-1333c7430d94">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4c4ff39-09ff-4bfe-b374-784603dfc8dd">
+    <name>Премия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
