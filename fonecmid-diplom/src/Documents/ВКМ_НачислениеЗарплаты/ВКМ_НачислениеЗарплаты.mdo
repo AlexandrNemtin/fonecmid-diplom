@@ -62,10 +62,6 @@
         <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
         <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
         <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

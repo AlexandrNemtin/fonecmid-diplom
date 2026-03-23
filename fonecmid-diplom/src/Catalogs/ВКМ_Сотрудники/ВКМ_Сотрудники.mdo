@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5110423b-a18c-4676-9a61-bb41f7d6af58">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5110423b-a18c-4676-9a61-bb41f7d6af58">
   <producedTypes>
     <objectType typeId="6453359c-22c8-4661-8e6e-691766256531" valueTypeId="7373817e-dfe2-4dda-a31e-2472a15c96a5"/>
     <refType typeId="8f266fdc-f31f-4922-b974-fd5dba7400aa" valueTypeId="4d61e26a-dcd5-4d70-baaa-c898d19ff886"/>
@@ -30,4 +30,29 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cdde4978-a784-41ff-930b-d40cdb30277f">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="582e6dab-2fcb-4008-a438-bebda12902c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
