@@ -31,4 +31,6 @@
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>Constant.ВКМ_НДФЛ</content>
   <content>Catalog.ВКМ_Должности</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>
