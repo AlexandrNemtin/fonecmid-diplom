@@ -627,6 +627,7 @@
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ВКМ_ОбслуживаниеКлиентов</roles>
   <roles>Role.ВКМ_МассовоеСозданиеРеализаций</roles>
+  <roles>Role.ВКМ_КадровикРасчетчик</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1052,6 +1053,11 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ОбслуживаниеКлиентовДокументы</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ЗарплатаСотрудниковСправочники</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ЗарплатаСотрудниковРегистры</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ЗарплатаСотрудниковДокументы</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ОбслуживаниеКлиентовРегистры</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>

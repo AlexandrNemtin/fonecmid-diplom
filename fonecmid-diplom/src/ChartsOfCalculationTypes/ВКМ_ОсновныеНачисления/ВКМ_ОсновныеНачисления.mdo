@@ -37,6 +37,23 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="71c85724-db3d-4e9d-a170-2fa03bb9b29b">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
+    </items>
+    <items id="fd30b51f-8827-4d4f-97fa-c27dca2e2bab">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
+  </predefined>
   <attributes uuid="d9f5113a-aaad-452b-b1bb-353615d46771">
     <name>СпособРасчета</name>
     <synonym>

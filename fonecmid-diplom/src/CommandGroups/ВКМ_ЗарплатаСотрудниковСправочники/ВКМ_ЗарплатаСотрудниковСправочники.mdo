@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b7e77c8-cc8d-4710-81bd-0529d2307206">
+  <name>ВКМ_ЗарплатаСотрудниковСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники: Зарплата сотрудников</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

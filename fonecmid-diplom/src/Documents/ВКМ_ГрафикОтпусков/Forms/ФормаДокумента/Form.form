@@ -148,147 +148,35 @@
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
       <dropListButton>true</dropListButton>
+      <listChoiceMode>true</listChoiceMode>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
       <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2000</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2001</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2002</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2003</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2004</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2005</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2006</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2007</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2008</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2009</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2010</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2011</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2012</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2013</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2014</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2015</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2016</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2017</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2018</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2019</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2020</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2021</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2022</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2023</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2024</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
+        <presentation>
+          <key>ru</key>
           <value>2025</value>
+        </presentation>
+        <value xsi:type="core:DateValue">
+          <value>2025-01-01T00:00:00</value>
         </value>
       </choiceList>
       <choiceList>
-        <value xsi:type="core:NumberValue">
+        <presentation>
+          <key>ru</key>
           <value>2026</value>
+        </presentation>
+        <value xsi:type="core:DateValue">
+          <value>2026-01-01T00:00:00</value>
         </value>
       </choiceList>
       <choiceList>
-        <value xsi:type="core:NumberValue">
+        <presentation>
+          <key>ru</key>
           <value>2027</value>
+        </presentation>
+        <value xsi:type="core:DateValue">
+          <value>2027-01-01T00:00:00</value>
         </value>
       </choiceList>
     </extInfo>

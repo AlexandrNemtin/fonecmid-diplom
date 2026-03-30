@@ -26,4 +26,11 @@
       <value>Премия</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="8a2d80d7-c02b-4f0c-9ae6-34fd1c0ac8be">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
