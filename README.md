@@ -9,12 +9,16 @@
 
 ### Порядок начальной настройки программы:
 
-1. Создайте Telegram-бот
-
 <details>
-<summary>Tips for collapsed sections</summary>
+<summary>
+ 1. Создайте Telegram-бот
+</summary>
 
-   puts "Hello World"
+1.1 Напишите в Telegram https://t.me/BotFather команду "/start"
+1.2 Напишите команду "/newbot"
+1.3 Выберите имя вашего бота, которое будут видеть пользователи
+1.4 Выберите идентификатор вашего бота (он должен заканчиваться на "bot")
+1.5 Скопируйте (сохраните) токен, который пришлет BotFather
    
 </details>   
 
