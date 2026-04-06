@@ -10,9 +10,7 @@
 ### Порядок начальной настройки программы:
 
 <details>
-<summary>
-**1. Создайте Telegram-бот и получите токен бота**
-</summary>
+<summary><b>1. Создайте Telegram-бот и получите токен бота</b>b></summary>
 
   1.1 Напишите в Telegram `https://t.me/BotFather` команду "/start"
 
