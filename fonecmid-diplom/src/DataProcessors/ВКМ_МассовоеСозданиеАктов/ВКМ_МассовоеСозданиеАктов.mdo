@@ -44,6 +44,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="7dae3391-f471-4720-a82c-a7f7bbd2b56b">
       <name>Реализация</name>
@@ -56,6 +57,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="faf2d22b-ed1f-431a-be71-a8dc1d3d1f7b">

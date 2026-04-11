@@ -29,8 +29,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="105d0a4a-f954-426a-b9c1-4ac87aa8e480">
@@ -60,7 +60,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
-      <name>Отбор.ВКМ_ДатаНачалаДействияДоговора</name>
+      <name>Отбор.Владелец</name>
       <field>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Клиент</field>
     </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>

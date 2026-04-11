@@ -67,6 +67,7 @@
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВКМ_Сотрудники</v8:Type>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -83,6 +84,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -99,6 +101,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<template>
@@ -153,12 +156,7 @@
 						</dcsat:appearance>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 						<dcsat:appearance>
 							<dcscor:item>
 								<dcscor:parameter>Формат</dcscor:parameter>
@@ -173,7 +171,7 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">72.0</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">72</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -211,12 +209,13 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Специалист</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>61023066-6a72-4803-80f8-29b820f7763b</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisYear</v8:variant>
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
 						<v8:date>2026-03-06T00:00:00</v8:date>
 					</dcscor:value>
 					<dcsset:userSettingID>43e4f577-f0db-4e94-901a-bcb0f36d09da</dcsset:userSettingID>
@@ -224,7 +223,7 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextDay</v8:variant>
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
 						<v8:date>2026-03-31T00:03:01</v8:date>
 					</dcscor:value>
 					<dcsset:userSettingID>28a4e652-4882-4784-83da-8277e4ee63f4</dcsset:userSettingID>

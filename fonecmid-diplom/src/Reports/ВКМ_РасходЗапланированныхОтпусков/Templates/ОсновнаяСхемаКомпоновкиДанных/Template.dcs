@@ -125,6 +125,7 @@
 				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 		<denyIncompleteValues>true</denyIncompleteValues>
 	</parameter>
@@ -142,6 +143,7 @@
 				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 		<denyIncompleteValues>true</denyIncompleteValues>
 	</parameter>
@@ -211,12 +213,7 @@
 						</dcsat:appearance>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 						<dcsat:appearance>
 							<dcscor:item>
 								<dcscor:parameter>Формат</dcscor:parameter>
@@ -231,7 +228,7 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">52.0</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">52</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -279,12 +276,7 @@
 						<dcsat:value xsi:type="dcscor:Parameter">ДатаОкончания</dcsat:value>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 					</dcsat:item>
 				</dcsat:tableCell>
 				<dcsat:tableCell/>
@@ -327,21 +319,24 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>cde44a13-c2d1-4f7d-9129-38342a004924</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>4e1df668-bec2-4a63-8731-e561e5e0c51c</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Сотрудник</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>06d3e195-75f4-4894-9c2a-ee1ca258c858</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
-					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
@@ -352,8 +347,8 @@
 					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>МакетОформления</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

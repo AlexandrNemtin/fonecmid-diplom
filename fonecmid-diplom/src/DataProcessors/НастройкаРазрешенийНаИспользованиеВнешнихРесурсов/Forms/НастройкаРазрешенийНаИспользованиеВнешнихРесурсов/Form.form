@@ -1243,7 +1243,7 @@
                     <key>ru</key>
                     <value>Параметры подключения к кластеру RAS</value>
                   </title>
-                  <shortcut>Ctrl+S</shortcut>
+                  <shortcut>S</shortcut>
                   <extendedTooltip>
                     <name>ГруппаПараметрыПодключенияККластеруRASРасширеннаяПодсказка</name>
                     <id>158</id>
@@ -1742,7 +1742,7 @@
             <key>ru</key>
             <value>Страница подключение</value>
           </title>
-          <shortcut>Ctrl+S</shortcut>
+          <shortcut>S</shortcut>
           <extendedTooltip>
             <name>СтраницаПодключениеРасширеннаяПодсказка</name>
             <id>66</id>

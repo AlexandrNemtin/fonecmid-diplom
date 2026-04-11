@@ -108,6 +108,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -138,6 +139,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<template>
@@ -192,12 +194,7 @@
 						</dcsat:appearance>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 						<dcsat:appearance>
 							<dcscor:item>
 								<dcscor:parameter>Формат</dcscor:parameter>
@@ -212,7 +209,7 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">51.0</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">51</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -257,15 +254,18 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>432c7f24-d76a-46ba-94ea-870306d8525f</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Сотрудник</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>9001a252-e2ac-4cf2-88cd-db12ae687950</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>78eb98dd-2184-4f42-965b-cd469d7b28d1</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -330,12 +330,12 @@
 				</dcsset:selection>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
-						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
-					</dcscor:item>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>МакетОформления</dcscor:parameter>
 						<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
 			</dcsset:item>
